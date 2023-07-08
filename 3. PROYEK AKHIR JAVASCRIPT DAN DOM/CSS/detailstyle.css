@@ -1,0 +1,767 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 145px;
+  left: 0px;
+  top: 0px;
+
+  background-color: #0f8b8d;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.headerlogo a img {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 138px;
+  top: 39px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headermenu {
+  display: flex;
+  position: absolute;
+  left: 906px;
+  top: 54px;
+
+  font-weight: 400;
+  font-size: 30px;
+  column-gap: 50px;
+}
+
+.headermenu a {
+  color: #f9fbfe;
+}
+
+.headermenu a.active {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #ec9a29;
+}
+
+main {
+  width: 100%;
+}
+
+.detail img {
+  position: absolute;
+  height: 501.35px;
+  left: 97px;
+  top: 195px;
+}
+
+.detail h1 {
+  position: absolute;
+  height: 58px;
+  left: 730px;
+  top: 294px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #0f8b8d;
+}
+
+.detail h2 {
+  position: absolute;
+  height: 29px;
+  left: 730px;
+  top: 382px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.detail h3 {
+  position: absolute;
+  height: 72px;
+  left: 730px;
+  top: 471px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 72px;
+
+  color: #0f8b8d;
+}
+
+.description h1 {
+  position: absolute;
+  height: 58px;
+  left: 257px;
+  top: 740px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #0f8b8d;
+}
+
+.description .rectangle {
+  position: absolute;
+  width: 381px;
+  height: 5px;
+  left: 257px;
+  top: 818px;
+
+  background: #ec9a29;
+}
+
+.description p {
+  position: absolute;
+  width: 920px;
+  height: 87px;
+  left: 257px;
+  top: 843px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.description .backbutton {
+  position: absolute;
+  width: 335px;
+  height: 70px;
+  left: 257px;
+  top: 975px;
+
+  background: #a8201a;
+  border-radius: 55px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 70px;
+  text-align: center;
+  color: #f9fbfe;
+
+  opacity: 0.8;
+}
+
+.description .backbutton:hover {
+  opacity: 1;
+}
+
+.description img {
+  position: absolute;
+  left: 280px;
+  top: 987px;
+  filter: invert(1);
+
+  transform: rotate(-180deg);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 460px;
+  left: 0px;
+  top: 1145px;
+
+  background: #143642;
+  border-radius: 20px;
+}
+
+.footerlogo img {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 138px;
+  top: 80px;
+}
+
+.mailbutton img {
+  position: absolute;
+  left: 138px;
+  top: 178px;
+  filter: invert(1);
+}
+
+.phonebutton img {
+  position: absolute;
+  left: 205px;
+  top: 178px;
+  filter: invert(1);
+}
+
+.footermenu ul {
+  display: flex;
+  position: absolute;
+  left: 706px;
+  top: 80px;
+
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 29px;
+  column-gap: 90px;
+}
+
+.footermenu li {
+  color: #ec9a29;
+  list-style: none;
+}
+
+.productmenu {
+  display: grid;
+  position: absolute;
+  left: 706px;
+  top: 139px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  row-gap: 30px;
+}
+
+.productmenu a {
+  color: #f9fbfe;
+}
+
+.storemenu {
+  display: grid;
+  position: absolute;
+  left: 901px;
+  top: 139px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  row-gap: 30px;
+}
+
+.storemenu a {
+  color: #f9fbfe;
+}
+
+.contactmenu {
+  display: grid;
+  position: absolute;
+  left: 1054px;
+  top: 139px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  row-gap: 30px;
+}
+
+.contactmenu a {
+  color: #f9fbfe;
+}
+
+/* ======================================= */
+/* RESPONSIVE PAGES STYLING 1300 PX BELOW */
+/* ======================================*/
+
+@media (max-width: 1300px) {
+  /* HEADER */
+
+  header {
+    height: 140px;
+  }
+
+  .headerlogo a img {
+    width: 330px;
+    height: 60px;
+    left: 130px;
+    top: 35px;
+  }
+
+  .headermenu {
+    left: 700px;
+    top: 50px;
+    font-size: 30px;
+    column-gap: 50px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 450px;
+    left: 0px;
+    top: 1200px;
+  }
+
+  .footerlogo img {
+    width: 330px;
+    height: 60px;
+    left: 130px;
+    top: 75px;
+  }
+
+  .mailbutton img {
+    left: 130px;
+    top: 170px;
+  }
+
+  .phonebutton img {
+    left: 200px;
+    top: 170px;
+  }
+
+  .footermenu ul {
+    left: 606px;
+    top: 80px;
+
+    font-size: 30px;
+    line-height: 29px;
+    column-gap: 90px;
+  }
+
+  .productmenu {
+    left: 606px;
+    top: 139px;
+
+    font-size: 24px;
+    row-gap: 30px;
+  }
+
+  .storemenu {
+    left: 801px;
+    top: 139px;
+
+    font-size: 24px;
+    row-gap: 30px;
+  }
+
+  .contactmenu {
+    left: 954px;
+    top: 139px;
+
+    font-size: 24px;
+    row-gap: 30px;
+  }
+
+  /* MAIN */
+
+  .detail img {
+    height: 501.35px;
+    left: 50px;
+    top: 195px;
+  }
+
+  .detail h1 {
+    height: 58px;
+    left: 600px;
+    top: 294px;
+
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .detail h2 {
+    height: 29px;
+    left: 600px;
+    top: 382px;
+
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .detail h3 {
+    height: 72px;
+    left: 600px;
+    top: 471px;
+
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .description h1 {
+    height: 58px;
+    left: 200px;
+    top: 740px;
+
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .description .rectangle {
+    width: 381px;
+    height: 5px;
+    left: 200px;
+    top: 818px;
+  }
+
+  .description p {
+    width: 880px;
+    height: 87px;
+    left: 200px;
+    top: 843px;
+
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .description .backbutton {
+    width: 335px;
+    height: 70px;
+    left: 200px;
+    top: 975px;
+
+    font-size: 24px;
+    line-height: 70px;
+  }
+
+  .description img {
+    left: 220px;
+    top: 987px;
+  }
+}
+
+/* ======================================= */
+/* RESPONSIVE PAGES STYLING 1150 PX BELOW */
+/* ======================================*/
+
+@media (max-width: 1150px) {
+  /* HEADER */
+
+  header {
+    height: 130px;
+  }
+
+  .headerlogo a img {
+    width: 300px;
+    height: 55px;
+    left: 120px;
+    top: 30px;
+  }
+
+  .headermenu {
+    left: 600px;
+    top: 45px;
+    font-size: 25px;
+    column-gap: 50px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 350px;
+    left: 0px;
+    top: 1050px;
+  }
+
+  .footerlogo img {
+    width: 300px;
+    height: 55px;
+    left: 120px;
+    top: 70px;
+  }
+
+  .mailbutton img {
+    left: 120px;
+    top: 150px;
+  }
+
+  .phonebutton img {
+    left: 190px;
+    top: 150px;
+  }
+
+  .footermenu ul {
+    left: 500px;
+    top: 80px;
+
+    font-size: 20px;
+    line-height: 20px;
+    column-gap: 80px;
+  }
+
+  .productmenu {
+    left: 500px;
+    top: 130px;
+
+    font-size: 20px;
+    row-gap: 25px;
+  }
+
+  .storemenu {
+    left: 650px;
+    top: 130px;
+
+    font-size: 20px;
+    row-gap: 25px;
+  }
+
+  .contactmenu {
+    left: 770px;
+    top: 130px;
+
+    font-size: 20px;
+    row-gap: 25px;
+  }
+
+  /* MAIN */
+
+  .detail img {
+    height: 450px;
+    left: 25px;
+    top: 180px;
+  }
+
+  .detail h1 {
+    height: 50px;
+    left: 500px;
+    top: 280px;
+
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .detail h2 {
+    height: 25px;
+    left: 500px;
+    top: 350px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .detail h3 {
+    height: 60px;
+    left: 500px;
+    top: 450px;
+
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .description h1 {
+    height: 50px;
+    left: 100px;
+    top: 700px;
+
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .description .rectangle {
+    width: 250px;
+    height: 5px;
+    left: 100px;
+    top: 770px;
+  }
+
+  .description p {
+    width: 800px;
+    height: 80px;
+    left: 100px;
+    top: 800px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .description .backbutton {
+    width: 300px;
+    height: 60px;
+    left: 100px;
+    top: 900px;
+
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  .description img {
+    left: 120px;
+    top: 907px;
+  }
+}
+
+/* ====================================== */
+/* RESPONSIVE PAGES STYLING 400 PX BELOW */
+/* =====================================*/
+
+@media (max-width: 400px) {
+  /* HEADER */
+
+  header {
+    height: 100px;
+  }
+
+  .headerlogo a img {
+    width: 135px;
+    height: 25px;
+    left: 40px;
+    top: 20px;
+  }
+
+  .headermenu {
+    left: 60px;
+    top: 65px;
+    font-size: 15px;
+    column-gap: 50px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 350px;
+    left: 0px;
+    top: 730px;
+  }
+
+  .footerlogo img {
+    width: 145px;
+    height: 30px;
+    left: 40px;
+    top: 20px;
+  }
+
+  .mailbutton img {
+    width: 25px;
+    height: 20px;
+    left: 255px;
+    top: 25px;
+  }
+
+  .phonebutton img {
+    width: 25px;
+    height: 20px;
+    left: 300px;
+    top: 25px;
+  }
+
+  .footermenu ul {
+    flex-direction: column;
+    left: 40px;
+    top: 80px;
+
+    font-size: 15px;
+    line-height: 15px;
+    row-gap: 75px;
+  }
+
+  .productmenu {
+    left: 120px;
+    top: 80px;
+
+    font-size: 14px;
+    row-gap: 14px;
+  }
+
+  .storemenu {
+    left: 70px;
+    top: 200px;
+
+    font-size: 14px;
+    row-gap: 14px;
+  }
+
+  .contactmenu {
+    left: 70px;
+    top: 290px;
+
+    font-size: 14px;
+    row-gap: 14px;
+  }
+
+  /* MAIN */
+
+  .detail img {
+    height: 285px;
+    left: 0px;
+    top: 120px;
+  }
+
+  .detail h1 {
+    height: 25px;
+    left: 40px;
+    top: 400px;
+
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .detail h2 {
+    height: 15px;
+    left: 40px;
+    top: 430px;
+
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .detail h3 {
+    height: 35px;
+    left: 40px;
+    top: 460px;
+
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .description h1 {
+    height: 25px;
+    left: 40px;
+    top: 520px;
+
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .description .rectangle {
+    width: 280px;
+    height: 2px;
+    left: 40px;
+    top: 550px;
+  }
+
+  .description p {
+    width: 275px;
+    height: 55px;
+    left: 40px;
+    top: 560px;
+
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .description .backbutton {
+    width: 150px;
+    height: 30px;
+    left: 40px;
+    top: 650px;
+
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .description img {
+    width: 20px;
+    height: 20px;
+    left: 45px;
+    top: 655px;
+  }
+}
